@@ -50,4 +50,4 @@ You can also use the query builder syntax
 new Delete().from(Item.class).where("Id = ?", 1).execute();
 ```
 
-Next, let's look at [Querying the database](Querying-the-database)
+Next, let's look at [Querying the database](Querying-the-database).
