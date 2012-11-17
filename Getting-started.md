@@ -67,4 +67,4 @@ public class Item extends Model {
 }
 ```
 
-That’s it for configuration.
+That’s it for configuration. Next, [Querying the database](Querying-the-database)
