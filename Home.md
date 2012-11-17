@@ -1,4 +1,4 @@
 * [Getting started](wiki/Getting-started)
-* [Querying the database](wiki/Querying-the-database)
 * [Creating your database model](wiki/Creating-your-database-model)
+* [Querying the database](wiki/Querying-the-database)
 * [Type serializers](wiki/Type-serializers)
