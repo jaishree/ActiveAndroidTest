@@ -3,3 +3,5 @@
 * [Saving to the database](wiki/Saving-to-the-database)
 * [Querying the database](wiki/Querying-the-database)
 * [Type serializers](wiki/Type-serializers)
+* [Schema migrations](wiki/Schema-migrations)
+* [Pre-populated-databases](wiki/Pre-populated-databases)
