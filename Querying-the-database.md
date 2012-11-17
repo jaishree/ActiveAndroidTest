@@ -47,4 +47,4 @@ public static List<Item> getAll(Context context, Category category) {
 }
 ```
 
-Next: [Type serializers](Type-serializers)
+Next, [Type serializers](Type-serializers)
