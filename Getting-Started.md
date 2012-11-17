@@ -2,9 +2,9 @@ Let’s get started with ActiveAndroid. The first thing you need to do, if you h
 
 Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse. If you haven’t done so already, create an Android project.
 
-Right click on your project and select Build Path > Configure Build Path…
+Right click on your project and select _Build Path > Configure Build Path…_
 
-Click the Add External Jars… button and choose the ActiveAndroid jar file.
+Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
 
 Now that you have ActiveAndroid added to you project, you can begin you two step configuration process! The first thing we’ll need to do is add some global settings. ActiveAndroid will look for these in the AndroidManifest.xml file. Open the AndroidManifest.xml file located at the root directory of your project. Let’s add some configuration options.
 
