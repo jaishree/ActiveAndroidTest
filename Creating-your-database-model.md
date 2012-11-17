@@ -35,4 +35,4 @@ public class Category extends Model {
 }
 ```
 
-That’s all there is to it! Next, [Querying the database](Querying-the-database)
+That’s all there is to it! Next, [Querying the database](Querying-the-database).
