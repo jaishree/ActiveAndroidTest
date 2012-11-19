@@ -13,7 +13,7 @@ final public class UtilDateSerializer extends TypeSerializer {
 
 	@Override
 	public SerializedType getSerializedType() {
-		return SerializedType.LONG;
+		return SerializedType.INTEGER;
 	}
 
 	@Override
