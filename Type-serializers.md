@@ -43,8 +43,8 @@ The second method returns the inverse type. That is, the type we want to store i
 You can use the following enumeration values for this method.
 
 ```java
-public enum SerializedType {
-	BOOLEAN, CHARACTER, DOUBLE, FLOAT, INTEGER, LONG, SHORT, STRING
+public enum SQLiteType {
+	INTEGER, REAL, TEXT, BLOB
 }
 ```
 
