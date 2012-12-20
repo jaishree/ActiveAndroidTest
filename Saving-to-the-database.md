@@ -35,6 +35,23 @@ item.name = "Olive Garden";
 item.save();
 ```
 
+### Bulk insert
+
+To insert multiple records at the same time you can use transactions. Calls wrapped in transactions can be sped up by a factor of around 100. Here's an example:
+
+```
+ActiveAndroid.beginTransaction();
+for (int i = 0; i < 100; i++) {
+    Item item = new Item();
+    item.name = "Example " + i;
+    item.save()
+}
+ActiveAndroid.setTransactionSuccessful();
+ActiveAndroid.endTransaction();
+```
+
+This takes about 40 ms wrapped in a transaction, and 4 seconds when it's not.
+
 ### Deleting records
 
 What about deleting a record? Well, to delete a single record just call the delete() method. In the following example we’ll load an Item object by Id and delete it.
