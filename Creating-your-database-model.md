@@ -29,7 +29,7 @@ public class Category extends Model {
 	@Column(name = "Name")
 	public String name;
 
-	public static List<Item> items() {
+	public List<Item> items() {
 		return getMany(Item.class, "Category");
 	}
 }
