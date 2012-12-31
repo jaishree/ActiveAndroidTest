@@ -41,13 +41,17 @@ To insert multiple records at the same time you can use transactions. Calls wrap
 
 ```
 ActiveAndroid.beginTransaction();
-for (int i = 0; i < 100; i++) {
-    Item item = new Item();
-    item.name = "Example " + i;
-    item.save()
+try {
+        for (int i = 0; i < 100; i++) {
+            Item item = new Item();
+            item.name = "Example " + i;
+            item.save()
+        }
+        ActiveAndroid.setTransactionSuccessful();
 }
-ActiveAndroid.setTransactionSuccessful();
-ActiveAndroid.endTransaction();
+finally {
+        ActiveAndroid.endTransaction();
+}
 ```
 
 This takes about 40 ms wrapped in a transaction, and 4 seconds when it's not.
