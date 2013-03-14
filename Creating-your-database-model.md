@@ -5,7 +5,7 @@ There are only two important things to keep in mind. Your class must extend the 
 One important thing to note is that ActiveAndroid creates an id field for your tables. This field is an auto-incrementing primary key.
 
 ### Constructors
-AciveAndroid uses the standard-constructor of your class to instantiate objects. If you define your own constructors you have to define a parameterless constructor as well.
+ActiveAndroid uses the standard-constructor of your class to instantiate objects. If you define your own constructors you have to define a parameterless constructor as well.
 ```java
 @Table(name = "Items")
 public class Item extends Model {
