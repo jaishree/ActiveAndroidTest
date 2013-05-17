@@ -45,7 +45,7 @@ try {
         for (int i = 0; i < 100; i++) {
             Item item = new Item();
             item.name = "Example " + i;
-            item.save()
+            item.save();
         }
         ActiveAndroid.setTransactionSuccessful();
 }
