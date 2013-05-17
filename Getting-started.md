@@ -34,7 +34,7 @@ If you are using a custom Application class, just extend com.activeandroid.app.A
 public class MyApplication extends com.activeandroid.app.Application { ...
 ```
 
-But what if you're already doing this to utilize another library? Simply initialize ActiveAndroid in the Application class.
+But what if you're already doing this to utilize another library? Simply initialize and dispose ActiveAndroid in the Application class.
 
 ```java
 public class MyApplication extends SomeLibraryApplication {
@@ -42,6 +42,11 @@ public class MyApplication extends SomeLibraryApplication {
 	public void onCreate() {
 		super.onCreate();
 		ActiveAndroid.initialize(this);
+	}
+	@Override
+	public void onTerminate() {
+		super.onTerminate();
+		ActiveAndroid.dispose();
 	}
 }
 ```
