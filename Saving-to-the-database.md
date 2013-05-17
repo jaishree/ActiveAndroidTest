@@ -68,7 +68,7 @@ item.delete();
 Or you can delete it statically
 
 ```java
-Item item = Item.delete(Item.class, 1);
+Item.delete(Item.class, 1);
 ```
 
 You can also use the query builder syntax
