@@ -1,6 +1,6 @@
 ActiveAndroid handles many types by default. If the need arrises for handling a custom data type, you easily do so using TypeSerializer. The best way to learn how it works is by looking at an example. Let's consider the Date type.
 
-When creating a TypeSerializer we must consider how we can reduce the Data type down to a primitive type what ActiveAndroid can handle. Dates can be converted to a Long, so let's use that type.
+When creating a TypeSerializer we must consider how we can reduce the Data type down to a primitive type that ActiveAndroid can handle. Dates can be converted to a Long, so let's use that type.
 
 Here's the code used in the ActiveAndroid source for Dates.
 
