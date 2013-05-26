@@ -38,7 +38,7 @@ public static Item getRandom(Category category) {
 And here's how we get all the items in a category, sorted by name.
 
 ```java
-public static List<Item> getAll(Context context, Category category) {
+public static List<Item> getAll(Category category) {
 	return new Select()
 		.from(Item.class)
 		.where("Category = ?", category.getId())
