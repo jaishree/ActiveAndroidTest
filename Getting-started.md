@@ -1,4 +1,4 @@
-Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is download the ActiveAndroid library.
+Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is download the ActiveAndroid library. By cloneing the source, or downloading it you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the dist folder.
 
 Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse. If you haven’t done so already, create an Android project.
 
