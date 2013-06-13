@@ -9,20 +9,20 @@ Right click on your project and select _Build Path > Configure Build Path…_
 
 Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
 
-## Installing from MAVEN
+## Installing from Maven
 First clone the source from Git and install the package to your local repository
 
-* git clone https://github.com/pardom/ActiveAndroid.git lib_ActiveAndroid
-* cd lib_ActiveAndroid
+* git clone https://github.com/pardom/ActiveAndroid.git
+* cd ActiveAndroid
 * mvn clean install
 
-You should be able to see the package compiling and installing. When thats successful go to your pom.xml and add the following lines to include ActiveAndroid into your project.
+After the project builds successfully, add the following dependency to your pom.xml
 
 ```xml
 <dependency>
 	<groupId>com.activeandroid</groupId>
 	<artifactId>activeandroid</artifactId>
-	<version>${activeandroid.version}</version>
+	<version>(insert latest version)</version>
 </dependency>
 ```
 
