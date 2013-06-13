@@ -1,10 +1,32 @@
-Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is download the ActiveAndroid library. By cloneing the source, or downloading it you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the dist folder.
+Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is download the ActiveAndroid library. 
+
+## Adding the JAR
+By cloneing the source, or downloading it you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the dist folder.
 
 Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse. If you haven’t done so already, create an Android project.
 
 Right click on your project and select _Build Path > Configure Build Path…_
 
 Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
+
+## Installing from MAVEN
+First clone the source from Git and install the package to your local repository
+
+* git clone https://github.com/pardom/ActiveAndroid.git lib_ActiveAndroid
+* cd lib_ActiveAndroid
+* mvn clean install
+
+You should be able to see the package compiling and installing. When thats successful go to your pom.xml and add the following lines to include ActiveAndroid into your project.
+
+```xml
+<dependency>
+	<groupId>com.activeandroid</groupId>
+	<artifactId>activeandroid</artifactId>
+	<version>${activeandroid.version}</version>
+</dependency>
+```
+
+## Configuring your project
 
 Now that you have ActiveAndroid added to you project, you can begin you two step configuration process! The first thing we’ll need to do is add some global settings. ActiveAndroid will look for these in the AndroidManifest.xml file. Open the AndroidManifest.xml file located at the root directory of your project. Let’s add some configuration options.
 
