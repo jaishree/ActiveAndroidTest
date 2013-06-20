@@ -55,5 +55,5 @@ The last method inflates the data stored in the database into the supported data
 To register your custom type serializers with Active Android, you need to declare them in AndroidManifest.xml.
 
 ```xml
-<meta-data android:name="AA_SERIALIZERS" android:value="my.package.CustomTypeSerializer" />
+<meta-data android:name="AA_SERIALIZERS" android:value="my.package.CustomTypeSerializer, my.package.AnotherCustomerTypeSerializer" />
 ```
