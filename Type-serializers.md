@@ -56,5 +56,5 @@ To register your custom type serializers with Active Android, you need to declar
 
 ```xml
 <meta-data android:name="AA_SERIALIZERS" 
-      android:value="my.package.CustomTypeSerializer,my.package.AnotherCustomerTypeSerializer" />
+      android:value="my.package.CustomTypeSerializer,my.package.AnotherCustomeTypeSerializer" />
 ```
