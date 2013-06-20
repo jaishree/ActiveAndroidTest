@@ -51,3 +51,9 @@ public enum SQLiteType {
 The next method transforms our supported data type into a data type ActiveAndroid can store. Here we use the getTime() method of Date to return a Long.
 
 The last method inflates the data stored in the database into the supported data type. Date can be constructed with a Long, so we use the stored Long data to return a new Date object.
+
+To register your custom type serializers with Active Android, you need to declare them in AndroidManifest.xml.
+
+```xml
+<meta-data android:name="AA_SERIALIZERS" android:value="my.package.CustomTypeSerializer" />
+```
