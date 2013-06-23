@@ -12,8 +12,8 @@ final public class UtilDateSerializer extends TypeSerializer {
 	}
 
 	@Override
-	public SerializedType getSerializedType() {
-		return SerializedType.INTEGER;
+	public Class<?> getSerializedType() {
+		return Long.class;
 	}
 
 	@Override
