@@ -8,5 +8,5 @@ ActiveAndroid will execute a script if its filename if greater then the old data
 Let’s assume you added a column `colour` to the `Items` table. You now need to increase AA_DB_VERSION to 2 and provide a script `2.sql`. 
 
 ```sql
-ALTER TABLE <table name> ADD COLUMN <column name>(<column type>);
+ALTER TABLE Items ADD COLUMN Color(INTEGER);
 ```
