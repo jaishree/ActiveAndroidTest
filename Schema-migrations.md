@@ -1,4 +1,4 @@
-Schemas are migrated using sql-scripts in `/assets/migrations`. Whenever your schema (e.g. classes that are annotated with `@Table(…)`) changes you need to
+If new classes are added, ActiveAndroid will automatically add them to the database. If you want to change something to existing tables however (add or delete a column), this is done using sql-scripts which can be put in `assets/migrations`. Whenever your schema (e.g. classes that are annotated with `@Table(…)`) changes you need to
 
 1. increase the meta-information AA_DB_VERSION.
 2. provide a script `<NewVersion>.sql` in `/assets/migrations`.
