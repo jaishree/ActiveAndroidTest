@@ -1,6 +1,7 @@
 **Note**
 Issue [#83](https://github.com/pardom/ActiveAndroid/issues/83) must be fixed (column "Id" renamed to "_id") before the following will work:
 
+```java
 	mySpinner.setAdapter(new SimpleCursorAdapter(getActivity(),
 		android.R.layout.simple_expandable_list_item_1,
 		null,
@@ -27,3 +28,4 @@ Issue [#83](https://github.com/pardom/ActiveAndroid/issues/83) must be fixed (co
 			((SimpleCursorAdapter)mySpinner.getAdapter()).swapCursor(null);
 		}
 	});
+```
