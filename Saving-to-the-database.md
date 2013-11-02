@@ -21,7 +21,7 @@ item.name = "Outback Steakhouse";
 item.save();
 ```
 
-Let’s add some more items. We don’t need to create new objects though, we just need to call the object’s constructor again.
+Let’s add some more items.
 
 ```java
 item = new Item();
