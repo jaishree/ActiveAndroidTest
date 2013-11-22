@@ -1,5 +1,5 @@
 **Note**
-Issue [#83](https://github.com/pardom/ActiveAndroid/issues/83) must be fixed (column "Id" renamed to "_id") before the following will work:
+You must override the default identity column as specified here (https://github.com/pardom/ActiveAndroid/pull/132) before the following will work:
 
 ```java
 	mySpinner.setAdapter(new SimpleCursorAdapter(getActivity(),
