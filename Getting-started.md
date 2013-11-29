@@ -1,22 +1,26 @@
-Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is download the ActiveAndroid library. 
+Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is [download the ActiveAndroid library.](https://github.com/pardom/ActiveAndroid/archive/master.zip)
+
 
 ## Adding the JAR
-By cloning the source, or downloading it you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the dist folder.
 
-Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse. If you haven’t done so already, create an Android project.
+By cloning the source, or [downloading it](https://github.com/pardom/ActiveAndroid/archive/master.zip), you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the `dist` folder.
 
-Right click on your project and select _Build Path > Configure Build Path…_
+Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse:
 
-Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
+1. If you haven’t done so already, create an Android project.
+2. Right click on your project and select _Build Path > Configure Build Path…_
+3. Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
+
 
 ## Installing from Maven
-First clone the source from Git and install the package to your local repository
 
-* git clone https://github.com/pardom/ActiveAndroid.git
-* cd ActiveAndroid
-* mvn clean install
+First, clone the source from Git and install the package to your local repository:
 
-After the project builds successfully, add the following dependency to your pom.xml
+1. `git clone https://github.com/pardom/ActiveAndroid.git`
+2. `cd ActiveAndroid`
+3. `mvn clean install`
+
+After the project builds successfully, add the following dependency to your `pom.xml`
 
 ```xml
 <dependency>
@@ -28,7 +32,7 @@ After the project builds successfully, add the following dependency to your pom.
 
 ## Configuring your project
 
-Now that you have ActiveAndroid added to you project, you can begin you two step configuration process! The first thing we’ll need to do is add some global settings. ActiveAndroid will look for these in the AndroidManifest.xml file. Open the AndroidManifest.xml file located at the root directory of your project. Let’s add some configuration options.
+Now that you have ActiveAndroid added to you project, you can begin your two-step configuration process! The first thing we’ll need to do is add some global settings. ActiveAndroid will look for these in the AndroidManifest.xml file. Open the AndroidManifest.xml file located at the root directory of your project. Let’s add some configuration options.
 
 * AA_DB_NAME (optional)
 * AA_DB_VERSION (optional – defaults to 1)
@@ -48,7 +52,7 @@ The configuration strings for my project look like this
 </manifest>
 ```
 
-Notice also, that the application name points to the ActiveAndroid application class. **This step is required** for ActiveAndroid to work. If you already point to a custom Application class, just make that class a subclass of com.activeandroid.app.Application.
+Notice also that the application name points to the ActiveAndroid application class. **This step is required** for ActiveAndroid to work. If you already point to a custom Application class, just make that class a subclass of com.activeandroid.app.Application.
 
 If you are using a custom Application class, just extend com.activeandroid.app.Application instead of android.app.Application
 
