@@ -56,4 +56,16 @@ public class Category extends Model {
 }
 ```
 
+### Setting indexes
+
+You can set indexes on specified columns by setting `index = true` in the Column definition annotation.
+
+	@Column(name = NAME, index = true)
+	public String name;
+
+	@Column(name = CATEGORY, index = true)
+	public String category;
+
+This will create a query on both columns
+
 That’s all there is to it! Next, let's take a look at [saving to the database](Saving-to-the-database).
