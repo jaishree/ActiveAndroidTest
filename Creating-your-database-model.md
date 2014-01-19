@@ -60,11 +60,13 @@ public class Category extends Model {
 
 You can set indexes on specified columns by setting `index = true` in the Column definition annotation.
 
+```java
 	@Column(name = NAME, index = true)
 	public String name;
 
 	@Column(name = CATEGORY, index = true)
 	public String category;
+```
 
 This will create a query on both columns
 
