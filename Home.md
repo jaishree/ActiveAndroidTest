@@ -6,3 +6,4 @@
 * [Using the content provider](wiki/Using-the-content-provider)
 * [Schema migrations](wiki/Schema-migrations)
 * [Pre-populated-databases](wiki/Pre-populated-databases)
+* [Running the Test Suite](wiki/Running-the-Test-Suite)
