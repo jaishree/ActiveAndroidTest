@@ -1,7 +1,7 @@
 Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is [download the ActiveAndroid library.](https://github.com/pardom/ActiveAndroid/archive/master.zip)
 
 
-## Adding the JAR
+## Adding The JAR
 
 By cloning the source, or [downloading it](https://github.com/pardom/ActiveAndroid/archive/master.zip), you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the `dist` folder.
 
@@ -12,7 +12,7 @@ Now that you have the ActiveAndroid library you can **add it to your project’s
 3. Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
 
 
-## Installing from Maven
+## Installing From Maven
 
 First, clone the source from Git and install the package to your local repository:
 
@@ -30,7 +30,7 @@ After the project builds successfully, add the following dependency to your `pom
 </dependency>
 ```
 
-## Configuring your project
+## Configuring Your Project
 
 Now that you have ActiveAndroid added to you project, you can begin your two-step configuration process! The first thing we’ll need to do is add some global settings. ActiveAndroid will look for these in the AndroidManifest.xml file. Open the AndroidManifest.xml file located at the root directory of your project. Let’s add some configuration options.
 
