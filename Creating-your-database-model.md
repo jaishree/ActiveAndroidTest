@@ -70,4 +70,15 @@ You can set indexes on specified columns by setting `index = true` in the Column
 
 This will create a query on both columns
 
+### Reserved Column Names
+
+Do not use the following column names or trouble will pursue:
+
+- `id`
+- `unique`
+
+*If you find others, please add them to the list.*
+
+--------------------------------------------------------
+
 That’s all there is to it! Next, let's take a look at [saving to the database](Saving-to-the-database).
