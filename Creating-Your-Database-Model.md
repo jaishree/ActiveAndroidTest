@@ -5,12 +5,15 @@ There are only two important things to keep in mind. Your class must extend the 
 One important thing to note is that ActiveAndroid creates an id field for your tables. This field is an auto-incrementing primary key.
 
 ### Constructors
-ActiveAndroid uses the standard-constructor of your class to instantiate objects. If you define your own constructors you have to define a parameterless constructor as well.
+ActiveAndroid uses the standard-constructor of your class to instantiate objects. If you define your own constructors you have to define a parameterless constructor as well. Look in the source code for more documentation.
+
 ```java
 @Table(name = "Items")
 public class Item extends Model {
+        // If name is omitted, then the field name is used.
 	@Column(name = "Name")
 	public String name;
+
 	@Column(name = "Category")
 	public Category category;
 
@@ -34,6 +37,7 @@ In the Item class we can make a direct relationship to the Category it is in by 
 ```java
 @Table(name = "Items")
 public class Item extends Model {
+
 	@Column(name = "Name")
 	public String name;
 
@@ -50,6 +54,7 @@ public class Category extends Model {
 	@Column(name = "Name")
 	public String name;
 
+        // This method is optional, does not affect the foreign key creation.
 	public List<Item> items() {
 		return getMany(Item.class, "Category");
 	}
