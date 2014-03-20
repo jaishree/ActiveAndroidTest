@@ -29,3 +29,11 @@ You must override the default identity column as specified here (https://github.
 		}
 	});
 ```
+
+You must also have the following `provider` in your `AndroidManifest.xml`:
+```
+<application ...>
+    <provider android:authorities="com.example" android:exported="false" android:name="com.activeandroid.content.ContentProvider" />
+    ...
+</application>
+```
