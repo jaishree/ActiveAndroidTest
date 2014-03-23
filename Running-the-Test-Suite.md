@@ -6,7 +6,7 @@ First, create an emulator profile (if you do not already have one) by going to y
 
     ./android avd
 
-This will launch the AVD Manager and allow you to create a device emulator for running the tests. As far I test you can create pretty much whatever you want here.
+This will launch the AVD Manager and allow you to create a device emulator for running the tests. You can create anything fairly standard here that you want, or use one that you already have setup.
 
 
 ### Run Emulator
