@@ -79,37 +79,37 @@ This will create a query on both columns
 
 Do not use the following column names or trouble will pursue:
 ```
-ABORT		  DEFAULT	    INNER	      REGEXP
-ACTION		  DEFERRABLE	    INSERT	      REINDEX
-ADD		  DEFERRED	    INSTEAD	      RELEASE
-AFTER		  DELETE	    INTERSECT	      RENAME
-ALL		  DESC		    INTO	      REPLACE
-ALTER		  DETACH	    IS		      RESTRICT
-ANALYZE		  DISTINCT	    ISNULL	      RIGHT
-AND		  DROP		    JOIN	      ROLLBACK
-AS		  EACH		    KEY		      ROW
-ASC		  ELSE		    LEFT	      SAVEPOINT
-ATTACH		  END		    LIKE	      SELECT
-AUTOINCREMENT	  ESCAPE	    LIMIT	      SET
-BEFORE		  EXCEPT	    MATCH	      TABLE
-BEGIN		  EXCLUSIVE	    NATURAL	      TEMP
-BETWEEN		  EXISTS	    NO		      TEMPORARY
-BY		  EXPLAIN	    NOT		      THEN
-CASCADE		  FAIL		    NOTNULL	      TO
-CASE		  FOR		    NULL	      TRANSACTION
-CAST		  FOREIGN	    OF		      TRIGGER
-CHECK		  FROM		    OFFSET	      UNION
-COLLATE		  FULL		    ON		      UNIQUE
-COLUMN		  GLOB		    OR		      UPDATE
-COMMIT		  GROUP		    ORDER	      USING
-CONFLICT	  HAVING	    OUTER	      VACUUM
-CONSTRAINT	  IF		    PLAN	      VALUES
-CREATE		  IGNORE	    PRAGMA	      VIEW
-CROSS		  IMMEDIATE	    PRIMARY	      VIRTUAL
-CURRENT_DATE	  IN		    QUERY	      WHEN
-CURRENT_TIME	  INDEX		    RAISE	      WHERE
-CURRENT_TIMESTAMP INDEXED	    RECURSIVE	      WITH
-DATABASE	  INITIALLY	    REFERENCES	      WITHOUT
+ABORT               DEFAULT         INNER         REGEXP
+ACTION              DEFERRABLE      INSERT        REINDEX
+ADD                 DEFERRED        INSTEAD       RELEASE
+AFTER               DELETE          INTERSECT     RENAME
+ALL                 DESC            INTO          REPLACE
+ALTER               DETACH          IS            RESTRICT
+ANALYZE             DISTINCT        ISNULL        RIGHT
+AND                 DROP            JOIN          ROLLBACK
+AS                  EACH            KEY           ROW
+ASC                 ELSE            LEFT          SAVEPOINT
+ATTACH              END             LIKE          SELECT
+AUTOINCREMENT       ESCAPE          LIMIT         SET
+BEFORE              EXCEPT          MATCH         TABLE
+BEGIN               EXCLUSIVE       NATURAL       TEMP
+BETWEEN             EXISTS          NO            TEMPORARY
+BY                  EXPLAIN         NOT           THEN
+CASCADE             FAIL            NOTNULL       TO
+CASE                FOR             NULL          TRANSACTION
+CAST                FOREIGN         OF            TRIGGER
+CHECK               FROM            OFFSET        UNION
+COLLATE             FULL            ON            UNIQUE
+COLUMN              GLOB            OR            UPDATE
+COMMIT              GROUP           ORDER         USING
+CONFLICT            HAVING          OUTER         VACUUM
+CONSTRAINT          IF              PLAN          VALUES
+CREATE              IGNORE          PRAGMA        VIEW
+CROSS               IMMEDIATE       PRIMARY       VIRTUAL
+CURRENT_DATE        IN              QUERY         WHEN
+CURRENT_TIME        INDEX           RAISE         WHERE
+CURRENT_TIMESTAMP   INDEXED         RECURSIVE     WITH
+DATABASE            INITIALLY       REFERENCES    WITHOUT
 ```
 
 *If you find others, please add them to the list.*
