@@ -8,6 +8,7 @@ By cloning the source, or [downloading it](https://github.com/pardom/ActiveAndro
 Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse:
 
 1. If you haven’t done so already, create an Android project.
+2. Copy ActiveAndroid.jar to the _libs_-folder of your new project.
 2. Right click on your project and select _Build Path > Configure Build Path…_
 3. Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
 
