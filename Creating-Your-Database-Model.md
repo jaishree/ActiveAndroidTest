@@ -110,6 +110,7 @@ CURRENT_DATE        IN              QUERY         WHEN
 CURRENT_TIME        INDEX           RAISE         WHERE
 CURRENT_TIMESTAMP   INDEXED         RECURSIVE     WITH
 DATABASE            INITIALLY       REFERENCES    WITHOUT
+                    ID
 ```
 
 *If you find others, please add them to the list.*
