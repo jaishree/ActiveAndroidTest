@@ -2,8 +2,8 @@ Whenever your schema changes you need to increment the database version number, 
 
 ActiveAndroid will execute a script if its filename is greater then the old database-version and smaller or equal to the new version.
 
-Let’s assume you added a column `colour` to the `Items` table. You now need to increase AA_DB_VERSION to 2 and provide a script `2.sql`. 
+Let’s assume you added a column `color` to the `Items` table. You now need to increase AA_DB_VERSION to 2 and provide a script `2.sql`. 
 
 ```sql
-ALTER TABLE Items ADD COLUMN Color INTEGER;
+ALTER TABLE Items ADD COLUMN color INTEGER;
 ```
