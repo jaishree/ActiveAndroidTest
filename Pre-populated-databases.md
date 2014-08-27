@@ -6,7 +6,6 @@ To use a pre populated database place a copy of it in the assets directory. To e
 
     INSERT INTO "android_metadata" VALUES ('en_US')
 ```
-
 2. Rename all the primary key fields to named Id (not _id like standard Android databases)
 
 
