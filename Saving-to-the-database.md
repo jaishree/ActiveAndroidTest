@@ -39,7 +39,7 @@ item.save();
 
 To insert multiple records at the same time you can use transactions. Calls wrapped in transactions can be sped up by a factor of around 100. Here's an example:
 
-```
+```java
 ActiveAndroid.beginTransaction();
 try {
         for (int i = 0; i < 100; i++) {
