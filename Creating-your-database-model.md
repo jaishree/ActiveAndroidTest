@@ -75,6 +75,16 @@ You can set indexes on specified columns by setting `index = true` in the Column
 
 This will create a query on both columns
 
+### Speeding up application startup
+
+ActiveAndroid will look through all your files to find your Model classes. This process can be very slow if you have a lot of dependencies. To speed up this process, specify your Model classes explicitely in your AndroidManifest:
+
+```xml
+<meta-data
+    android:name="AA_MODELS"
+    android:value="com.myapp.model.Item, com.myapp.model.Category" />
+```
+
 ### Reserved Column Names
 
 Do not use the following column names or trouble will pursue:
