@@ -15,7 +15,8 @@ Now that you have the ActiveAndroid library you can **add it to your project’s
 
 ## Installing From Maven
 
-First, clone the source from Git and install the package to your local repository:
+First, clone the source from Git and install the package to your local repository:  
+**Note: Maven 3.1.1 or later is required**
 
 1. `git clone https://github.com/pardom/ActiveAndroid.git`
 2. `cd ActiveAndroid`
@@ -73,7 +74,9 @@ public class MyApplication extends SomeLibraryApplication {
 }
 ```
 
-In our example two tables: Category and Item. In step two you will create classes for those tables. Don’t worry though, this part is easy too.
+In our example we have two tables: Category and Item.  
+In step two you will create classes for those tables.  
+Don’t worry though, this part is easy too.
 
 We'll go into more detail about setting up the database model later, but here are our classes.
 
