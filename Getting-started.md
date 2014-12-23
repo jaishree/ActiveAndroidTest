@@ -1,17 +1,20 @@
-Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is [download the ActiveAndroid library.](https://github.com/pardom/ActiveAndroid/archive/master.zip)
+Let’s get started with ActiveAndroid. The first thing you need to do, if you haven’t already done so, is [download the ActiveAndroid library.](https://github.com/pardom/ActiveAndroid/archive/master.zip) or the latest stable [ActiveAndroid jar file](https://github.com/pardom/ActiveAndroid/downloads). If you downloaded the library and not the jar, you'll have to build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the `dist` folder.
 
 
 ## Adding The JAR
 
-By cloning the source, or [downloading it](https://github.com/pardom/ActiveAndroid/archive/master.zip), you can build the jar file by running `ant` in the root folder. Your ActiveAndroid.jar, which is what we need, will be in the `dist` folder.
-
-Now that you have the ActiveAndroid library you can **add it to your project’s build path**. We’ll assume you’re using Eclipse:
+Now that you have the ActiveAndroid library you can **add it to your project’s build path**. If you’re using Eclipse:
 
 1. If you haven’t done so already, create an Android project.
 2. Copy ActiveAndroid.jar to the _libs_-folder of your new project.
 2. Right click on your project and select _Build Path > Configure Build Path…_
 3. Click the _Add External Jars…_ button and choose the ActiveAndroid jar file.
 
+If you're using Android Studio:
+
+1. If you haven’t done so already, create an Android project.
+2. Drag the jar to the libs folder of project. 
+3. Right click on the jar, and select "Add as a Library…"
 
 ## Installing From Maven
 
