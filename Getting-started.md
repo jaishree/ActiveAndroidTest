@@ -35,6 +35,17 @@ After the project builds successfully, add the following dependency to your `pom
 </dependency>
 ```
 
+## Installing with Gradle
+
+Modify your build.gradle to include:
+
+    repositories {
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+    
+    compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
+
 ## Configuring Your Project
 
 Now that you have ActiveAndroid added to you project, you can begin your two-step configuration process! The first thing we’ll need to do is add some global settings. ActiveAndroid will look for these in the AndroidManifest.xml file. Open the AndroidManifest.xml file located at the root directory of your project. Let’s add some configuration options.
