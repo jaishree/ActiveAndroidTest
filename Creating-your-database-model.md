@@ -11,16 +11,17 @@ ActiveAndroid uses the standard-constructor of your class to instantiate objects
 @Table(name = "Items")
 public class Item extends Model {
         // If name is omitted, then the field name is used.
-	@Column(name = "Name")
-	public String name;
+        @Column(name = "Name")
+        public String name;
 
-	@Column(name = "Category")
-	public Category category;
+        @Column(name = "Category")
+        public Category category;
 
-        public Item(){
+        public Item() {
                 super();
         }
-        public Item(String name, Category category){
+
+        public Item(String name, Category category) {
                 super();
                 this.name = name;
                 this.category = category;
