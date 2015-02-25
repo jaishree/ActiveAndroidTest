@@ -88,7 +88,7 @@ ActiveAndroid will look through all your files to find your Model classes. This 
 
 ### Reserved Column Names
 
-Do not use the following column names or trouble will pursue:
+Do not use the following column names or trouble will ensue:
 ```
 ABORT               DEFAULT         INNER         REGEXP
 ACTION              DEFERRABLE      INSERT        REINDEX
