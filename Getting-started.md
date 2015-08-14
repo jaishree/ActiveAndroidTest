@@ -95,7 +95,7 @@ public class MyApplication extends SomeLibraryApplication {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-                Configuration dbConfiguration = new Configuration.Builder(this).setDatabaseName("xxxx.db").create();
+                Configuration dbConfiguration = new Configuration.Builder(this).setDatabaseName("aaaa").create();
 		ActiveAndroid.initialize(dbConfiguration);
 	}
 }
