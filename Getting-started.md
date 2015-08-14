@@ -88,6 +88,19 @@ public class MyApplication extends SomeLibraryApplication {
 }
 ```
 
+If you want to build a database dynamically.You can use the configuration class.
+
+```java
+public class MyApplication extends SomeLibraryApplication {
+	@Override
+	public void onCreate() {
+		super.onCreate();
+                Configuration dbConfiguration = new Configuration.Builder(this).setDatabaseName("xxxx.db").create();
+		ActiveAndroid.initialize(dbConfiguration);
+	}
+}
+```
+
 In our example we have two tables: Category and Item.  
 In step two you will create classes for those tables.  
 Don’t worry though, this part is easy too.
