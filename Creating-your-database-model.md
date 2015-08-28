@@ -86,9 +86,9 @@ ActiveAndroid will look through all your files to find your Model classes. This 
     android:value="com.myapp.model.Item, com.myapp.model.Category" />
 ```
 
-### Reserved Column Names
+### Reserved Table and Column Names
 
-Do not use the following column names or trouble will ensue:
+Do not use the following table and column names or trouble will ensue:
 ```
 ABORT               DEFAULT         INNER         REGEXP
 ACTION              DEFERRABLE      INSERT        REINDEX
