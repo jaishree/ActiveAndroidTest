@@ -2,7 +2,7 @@ Now that you have your database model setup, let’s save some records to the da
 
 ### Inserting and updating records
 
-To save a new record, just create a new instance of an ActiveAndroid Model class, assign values to its fields, and call the save() method. That’s all. The save method works for both inserting and updating records.
+To save a new record, just create a new instance of an `activeandroid.Model` class, assign values to its fields, and call the `.save()` method. That’s all. The save method works for both inserting and updating records.
 
 Here’s an example
 
