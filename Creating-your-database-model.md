@@ -1,6 +1,6 @@
 Creating the database model is easy. Just create classes named your desired table name, which have annotated fields for each of the columns.
 
-There are only two important things to keep in mind. Your class must extend the Model class and your members must be annotated using **@Column**. ActiveAndroid will handle primitive data types as well as relationships to other tables and date classes.
+There are only two important things to keep in mind. Your class must extend the Model class and your members must be annotated using **@Column**. ActiveAndroid will handle primitive data types as well as relationships to other tables and data classes.
 
 One important thing to note is that ActiveAndroid creates an id field for your tables. This field is an auto-incrementing primary key.
 
